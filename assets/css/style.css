@@ -53,15 +53,6 @@ body{
     padding: .6rem .5rem;
 }
 
-.form-attention {
-    font-size: .6rem;
-    color: red;
-    text-shadow: none;
-    font-weight: bold;
-    align-self: self-start;
-    display: none;
-}
-
 .botoes {
     width: 100%;
     display: flex;

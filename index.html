@@ -12,22 +12,23 @@
         <h1>Calculadora Simples</h1>
         <div class="calc-campos">
             <div class="campos">
-                <div class="campo" id="campo1">
-                    <input type="text" placeholder="Valor 1">
+                <div class="campo">
+                    <input type="number" placeholder="Valor 1" id="campo1">
                 </div>
-                <div class="campo" id="campo2">
-                    <input type="text" placeholder="Valor 2">
+                <div class="campo">
+                    <input type="number" placeholder="Valor 2" id="campo2">
                 </div>
-            </div>            
-            <span class="form-attention">Apenas números no campo!</span>           
+            </div>          
         </div>
         <div class="botoes">
-            <button class="botao" id="botao-somar">Somar</button>
-            <button class="botao" id="botao-subtrair">Subtrair</button>
-            <button class="botao" id="botao-multiplicar">Multiplicar</button>
-            <button class="botao" id="botao-dividir">Dividir</button>
+            <button type="submit" class="botao" id="botao-somar">Somar</button>
+            <button type="submit" class="botao" id="botao-subtrair">Subtrair</button>
+            <button type="submit" class="botao" id="botao-multiplicar">Multiplicar</button>
+            <button type="submit" class="botao" id="botao-dividir">Dividir</button>
         </div>
     </div>
-    <div class="area-resposta">Resultado = </div>
+    <div class="area-resposta"></div>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
