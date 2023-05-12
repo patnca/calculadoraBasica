@@ -73,3 +73,10 @@ body{
     padding: .4rem;
     cursor: pointer;
 }
+
+.area-resposta {
+    color:#fff;
+    margin-top: 3rem;
+    font-weight: bold;
+    display: none;
+}
